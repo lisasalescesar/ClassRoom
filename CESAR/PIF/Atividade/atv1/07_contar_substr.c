@@ -15,14 +15,14 @@
  *     -> ocorrências em índices 0 e 2 -> total = 2.
  *
  *   Você deve implementar duas funções recursivas auxiliares:
+ * \*
  *
- *     int comeca_com(const char *texto, const char *padrao);
- *         /* devolve 1 se 'texto' começa exatamente com 'padrao',
- *            e 0 caso contrário. NÃO use strncmp(); compare caractere
- *            a caractere recursivamente. */
+ *     
+ * 
+ * int comeca_com(const char *texto, const char *padrao);
+ *        
  *
  *     int contar(const char *texto, const char *padrao);
- *         /* devolve o número de ocorrências do padrão em texto. */
  *
  *   Restrições:
  *     - Não usar strstr(), strncmp(), strcmp().
@@ -44,6 +44,7 @@
 
 /* TODO */
 int comeca_com(const char *texto, const char *padrao) {
+    
     return 0;
 }
 
